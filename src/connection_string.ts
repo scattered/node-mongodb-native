@@ -642,6 +642,9 @@ interface OptionDescriptor {
 }
 
 export const OPTIONS = {
+  stream: {
+    type: 'any'
+  },
   appName: {
     type: 'string'
   },
